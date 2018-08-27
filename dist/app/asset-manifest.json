@@ -1,0 +1,11 @@
+{
+  "carehealth.css": "carehealth/style.css",
+  "carehealth.js": "carehealth/index.js",
+  "home.css": "home/style.css",
+  "home.js": "home/index.js",
+  "lovepay.css": "lovepay/style.css",
+  "lovepay.js": "lovepay/index.js",
+  "static\\media\\guanaijiankanghead.jpg": "static/media/guanaijiankanghead.7e703200.jpg",
+  "static\\media\\lovebg.png": "static/media/lovebg.2682465b.png",
+  "static\\media\\xinmianfei.png": "static/media/xinmianfei.bdddcab8.png"
+}
