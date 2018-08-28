@@ -5,7 +5,7 @@ import "lib-flexible";
 // import "./index.less";
 import Home from "./home";
 // import registerServiceWorker from "./registerServiceWorker";
-//promise polyfill
+// promise polyfill
 if (!window.Promise) {
   dependencies.push("es6-promise.auto.min.js");
 }
