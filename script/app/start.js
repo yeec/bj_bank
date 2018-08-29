@@ -61,7 +61,7 @@ choosePort(HOST, DEFAULT_PORT)
         clearConsole();
       }
       // 打印控制台信息
-      console.log(color.cyan("☺正在启动文档开发服务，请稍后♪♪♪\n"));
+      console.log(color.cyan("☺正在启动项目开发服务，请稍后♪♪♪\n"));
       // 打开浏览器
       openBrowser(urls.localUrlForBrowser);
     });
