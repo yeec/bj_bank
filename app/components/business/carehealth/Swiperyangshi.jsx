@@ -1,7 +1,9 @@
 import React, { Component, PropTypes } from "react";
-import "./swiperyangshi.less";
+
 import $ from "jquery";
-import Swiper from "swiper";
+import Swiper from "./swiper/swiper.min.js";
+import "./swiperyangshi.less";
+import "./swiper/swiper.min.css";
 
 class Swiperyangshi extends React.Component {
   // static contextTypes = {

@@ -135,7 +135,7 @@ class Lovepay extends React.Component {
       //     });
       // }
     }, 500);
-    //bjdevice.doEMPFunction("cxbxis0011","14","");//保险信息
+    bjdevice.doEMPFunction("cxbxis0011","14","");//保险信息
     setTimeout(() => {
       // alert("insurance"+JSON.stringify(insurance))
       // alert("imgUrl"+JSON.stringify(insurance["imgUrl"]))

@@ -1,8 +1,6 @@
 import React from 'react';
 import './chujingjinrong.less';
 import MenuCard from '../../components/business/carehealth/Bjyinhang-menu-card'
-// import bjdevice from "../utils/EMPJSBridge-1.0.0.js";
-
 
 class Chujingjinrong extends React.Component {
     // static contextTypes = {
@@ -19,7 +17,7 @@ class Chujingjinrong extends React.Component {
     componentWillMount(){
         var me = this;
         var guoqiarry = [];
-        // bjdevice.doEMPFunction("exchangeRate","13","");            
+        bjdevice.doEMPFunction("exchangeRate","13","");            
         setTimeout(() => { 
             var huilvlists = exchangeRateList;
             for (var i = 0; i < huilvlists.length; i++) {

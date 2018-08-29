@@ -125,15 +125,10 @@ class Carserve extends React.Component {
           </div>
           <div className="rit-qichefuwu-button">
             <div className="rit-qichefuwu-button-box">
-              <Button type="primary">违章查询</Button>
+              <Button type="primary" onTap={this.gotoWHPage.bind(this,"weizhangchaxun")}>违章查询</Button>
               {/* <Button title="违章查询" classs="blue" clickhandle={this.gotoWHPage.bind(this,"weizhangchaxun")}/> */}
               <div className="rit-qichefuwu-button-box-mging" />
-              <Button
-                type="link"
-                clickhandle={this.gotoWHPage.bind(this, "jiayoukachongzhi")}
-              >
-                加油卡充值
-              </Button>
+              <Button type="link" onTap={this.gotoWHPage.bind(this, "jiayoukachongzhi")}>加油卡充值</Button>
             </div>
           </div>
           {/*<CarServebt>{tableLists}</CarServebt> */}

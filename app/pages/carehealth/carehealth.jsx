@@ -57,13 +57,13 @@ class CareHealth extends React.Component {
     }
     //初始化调用ewp 查询健康测评及健康小知识
     componentDidMount(){
-        // bjdevice.doEMPFunction("cxmb1100","7","");
+        bjdevice.doEMPFunction("cxmb1100","7","");
         setTimeout(() => {
             this.setState({
                 imgUrl : pingceList["imgUrl"],
                 pingceList : pingceList["hot_msglist"]
             });
-            // bjdevice.doEMPFunction("cxmb1100","8","");
+            bjdevice.doEMPFunction("cxmb1100","8","");
             setTimeout(() => {
                 // alert("yunyingceList"+JSON.stringify(yunyingceList))
                 // alert("hot_msglist"+JSON.stringify(yunyingceList["hot_msglist"]))
@@ -76,7 +76,7 @@ class CareHealth extends React.Component {
 
         }, 500);
 
-        // bjdevice.doEMPFunction("baoxian","12","");
+        bjdevice.doEMPFunction("baoxian","12","");
         setTimeout(() => { 
             // alert("setTimeout"+JSON.stringify(baoxianMsg))
             var zongbaoxianlists = [];
